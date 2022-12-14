@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #70908F;
+}
+nav{
+    width: 100%;
+    padding: 15px 30px;
+    color: #fff;
+    display: flex;
+}
+form{
+    margin-left: auto;
+    margin-right: 0;
+}
+form > input{
+    background-color: #c0c0c0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 8px;
+}
+button{
+    margin-left: 20px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #8cb5b3;
+}
+button:hover{
+    background-color: #8cb5b3;
+    color: #fff;
+}
+.container{
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.right{
+    width: 40%;
+    height: 100%;
+    background-color: #8cb5b3;
+}
+.info{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding: 30px 15px;
+    color: #fff;
+}
+.info p{
+    margin-top: 20px;
+    margin-left: 8px;
+}
+#city_name{
+    font-size: 30px;
+    font-weight: bold;
+}
+#temp{
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+}
+.deg{
+    font-size: 30px;
+    font-weight: bold;
+}
+#cond_img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+#weth_cond{
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+.info h2{
+    margin-top: 15px;
+}
+.cloud{
+    display: flex;
+    margin-top: 30px;
+}
+#cloud_des{
+    margin-left: auto;
+    margin-right: 0;
+}
+.humidity{
+    display: flex;
+}
+#humidity_desc{
+    margin-left: auto;
+    margin-right: 0;
+}
+.wind{
+    display: flex;
+}
+#wind_des{
+    margin-left: auto;
+    margin-right: 0;
+}
+.Feels{
+    display: flex;
+}
+#feel_des{
+    margin-left: auto;
+    margin-right: 0;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+        height: 80vh;
+    }
+    .left{
+        width: 50%;
+    }
+    .right{
+        width: 50%;
+    }
+    
+}
+@media only screen and (max-height: 600px){
+    .right{
+        overflow: scroll;
+    }
+}
+hr{
+    /* border-color: #000; */
+    border-top: none;
+}
